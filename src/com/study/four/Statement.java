@@ -155,7 +155,96 @@ public class Statement
 //			System.out.println(n);
 //			
 //		}
+		
+		
+		
+		//打印*号图形
+		/*
+		 * *
+		 * **
+		 * ***
+		 */
+		
+//		int n = 5;
+//		
+//		for ( int i = 0; i < n; i ++ )
+//			
+//		{
+//			for ( int k = 0; k <= i; k ++)
+//				
+//			{
+//				
+//				System.out.print("*");
+//				
+//			}
+//			
+//			System.out.println("\n");
+//			
+//		}
+		
+		
+		// break 语句，用于中断循环
+		// 要求打印输出一批数值，当数值超过10时停止打印
+		
+//		for ( int i = 0; i < 100; i ++) 
+//			
+//		{
+//			
+//			if ( i > 10 ) 
+//				
+//			{
+//				
+//				break; //运行到break时循环中止
+//				
+//			}
+//			
+//			System.out.println( i );
+//			
+//		}
+		
+		
+		// continue 语句，用于跳过本轮循环
+		//要求打印所有从1到20的数值，但不包括4的倍数
+		
+//		for ( int i = 1; i <= 20; i++ )
+//		{
+//			
+//			if ( i % 4 == 0 )
+//			{
+//				
+//				continue;
+//				
+//			}
+//			
+//			System.out.print(i + " ");
+//			
+//		}
+		
+		
+		
+		// for循环的变形
+		
+//		for ( ; ;) // for ( E1; E2; E3);E1、E2、 E3都为空也符合语法规则
+//		{
+//			System.out.println("in loop"); // 死循环
+//		}
 
+		
+		// while 语句：表示循环
+		//打印1到10之间的数值
+		
+		int i = 1;
+		
+		while ( i <= 10 )
+		{
+			
+			System.out.print( i + " " );
+			
+			i ++;
+			
+		}
+		
+		
 	}
 	
 }
